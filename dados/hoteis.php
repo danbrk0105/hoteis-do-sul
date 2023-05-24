@@ -1,5 +1,5 @@
 <?php
-$hoteis =[
+$hoteis = [
     /*Santa Catarina */
     [
         "nome" => "Hotel Fazenda Park",

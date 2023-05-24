@@ -1,0 +1,156 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(51, 51, 51);
+}
+
+header {
+    background-color: #333(168, 168, 168);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#banner {
+    background-image: url(../imagens/hotel2.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 400px;
+}
+
+#banner h2 {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    color: rgb(31, 31, 31);
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+#banner1 {
+    background-image: url(../imagens/hotel2.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 400px;
+}
+
+#banner1 h2 {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#banner1 p {
+    color: rgb(31, 31, 31);
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#rooms {
+    text-align: center;
+    padding: 50px;
+}
+
+#rooms h2 {
+    margin-bottom: 20px;
+}
+
+.room {
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    height: 200;
+}
+
+.room img {
+    width: 300px;
+    height: 200;
+}
+
+.hEstado {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#states {
+    text-align: center;
+    padding: 50px;
+}
+
+#states h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul li a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(146, 146, 146);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
