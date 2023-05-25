@@ -1,0 +1,336 @@
+
+*{
+            margin: 0;
+            padding: 0;
+            border: none;
+            box-sizing: border-box;
+         }
+                  
+            
+            body{
+             background-color:rgb(197, 197, 197);
+                font-family:Arial, sans-serif;
+               }
+            .menu{
+                min-height: 120px;
+                background-color: rgb(70, 70, 70);
+                max-width:100%;
+        
+            }
+            
+            .container{
+                width: 100%;
+                             margin: 0 auto;
+            }
+            .menu-container{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height:120px;
+            }
+            
+            .menu .logo{
+                width: 20%;
+                max-width: 600px;
+            }
+            .menu .logo > img{
+                max-width: 50%;
+               
+            }
+            .menu ul{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 600px;
+            }
+                    
+            .menu ul li{
+                list-style: none;
+            }
+            .menu ul li a{
+                font-size: 1.5rem;
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+                font-family:'fonte-Menu';
+            }
+            .menu li a:hover{
+                color: rgb(255, 255, 255);
+                text-decoration: underline overline;
+            }
+            .post ul{
+                list-style: circle;
+                margin-left:25px;
+            }
+            
+             .banner{
+                background-image:url('imagens/logo.jpg');
+                background-repeat: no-repeat;
+                background-size:cover;
+                background-position: center;
+                width:100%;
+                
+                 
+                 
+                 
+            }
+            .container{
+                width: 100%;
+            }
+          /*fim do menu*/  
+
+
+       header.banner{
+           background-color: LightGrey; 
+           min-height: 500px; 
+    
+           }
+    .banner .topo-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+.banner{
+	width: 100%;
+	padding:1rem;
+}	
+	
+.foto-banner > img{
+	width: 100%;
+}
+
+.foto-banner{
+	width: 100%;
+}
+	
+.banner .foto-banner{
+    height:  500px;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+.banner .foto-banner img{
+    height: 100%;
+}
+.banner .texto-banner{
+   
+    text-align: right;
+}
+.banner .texto-banner h1{
+    font-size: 65px;
+	background-color:rgba(0, 0, 0, 0.2);
+}
+.banner .texto-banner a{
+    display: inline-block;
+    padding: 20px;
+    background-color:cadetblue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 8px 5px 2px rgba(0, 0, 0, 0.2);
+    
+    
+}
+.banner .texto-banner a:hover{
+    background-color:rgb(255, 255, 255);
+    color: black;
+}
+/*fim do HEADER*/
+
+
+.qualidades{
+    background-color:white;
+    margin: 20px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    min-height: 750px;
+    
+}
+.qualidades h3{
+    color: darkgreen;
+    font-size: 50px;
+    margin:80px 10px 50px 10px;
+    text-align: center;
+}
+.itens-qualidades{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    min-height: 400px;
+    margin:0 auto;
+    padding-bottom: 30px;
+    
+}
+.qualidade{
+    width: 250px;
+    border: 1px solid #f3f3f3;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 1px 2px 2px #FFF, 2px 4px 2px #f3f3f3, 3px 7px 2px #fff, 4px 10px 2px #f3f3f3, 5px 12px 2px #fff, 5px 15px 2px #f3f3f3;
+    
+}
+
+
+.qualidade > img{
+    max-width: 100%;
+}
+
+.qualidade > h4{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    color:cadetblue;
+}
+
+/*fim de qualidades*/
+
+.postagens{
+    background-color: LightGrey;
+    margin: 20px 0px;
+    min-height: 750px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+	
+}
+.postagens h3{
+    color:rgb(0, 0, 0);
+    font-size:50px;
+    margin: 80px 10px 50px 10px;
+    text-align: center;
+	
+}
+
+.items-postagens{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-height: 400px;
+	font-size:2rem;
+	
+	
+	
+}
+.items-postagens article.post{
+    width: 300px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+	text-align:center;
+	font-size:1rem;
+	/*display:flex;
+ grid-template-rows:4% 4% 4% 5% 4%;
+grid-template-columns:20% 20% 20% 20%; 
+grid-area:pinc;*/
+grid-template-columns:40% 40% 40% 20%; 
+
+
+	
+  
+}
+.post{
+	border:2px solid;
+}
+
+.items-postagens .post > img{
+    max-width: 100%;
+    
+}
+
+.items-postagens .post ul li h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color:white;
+}
+
+/*fim das POSTAGENS*/
+
+
+footer{
+    background-color: #333(51, 51, 51);
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+footer a{
+    width: 40px;
+}
+
+footer a > img{
+    max-width: 100%;
+}
+footer .logo{
+    width: 200px;
+}
+
+
+/*contato*/
+
+
+.conteudo form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.conteudo fieldset{
+    border: 4px solid rgb(85, 85, 85);
+    text-indent: 0;
+    border-radius: 25px;
+    margin: 50px;
+    margin-bottom: 140px;
+    
+}
+
+.conteudo legend{
+    font-size: 27px;
+}
+
+.conteudo legend{
+    color: black;
+    padding: 15px;
+}
+
+.conteudo .campo{
+    margin: 10px;
+}
+
+.conteudo input, .conteudo textarea{
+    border: 1px solid grey;
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+}
+
+
+.conteudo textarea{
+    height: 250px;
+}
+
+.conteudo label{
+    font-size: 24px;
+}
+
+.conteudo button{
+    padding: 20px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Philosopher', sans-serif;
+
+  
+}
+
+.conteudo button:hover{
+    background-color: DarkGray;
+}
